@@ -1,0 +1,63 @@
+body{
+    margin:0;
+    padding: 0;
+
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: plum;
+    overflow: hidden;
+}
+form{
+    background-color: aliceblue;
+    width: 300px;
+    height: 400px;
+    padding: 5px 0px 0px 30px;
+    border-radius: 20px;
+
+}
+.formContant{
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+
+
+
+}
+input{
+    display: block;
+    text-align: center;
+    padding: 5px;
+    font-family: cursive;
+    outline-color: rgb(192, 210, 255);
+    border: 1px solid rgb(250, 91, 234);
+    margin: 40px;
+    border-radius: 30px;
+}
+
+input:focus{
+    border: 2px solid blue;
+}
+input:hover{
+    background-color: rgb(200, 255, 200);
+}
+#Login{
+    padding: 5px 25px 5px 25px;
+    background-color: rgb(168, 79, 184);
+    color: white;
+    margin-left: 80px;
+}
+.text{
+    font-family: 'Macondo', cursive;
+    color: blueviolet;
+    margin-right: 30px;
+}
+.Fpassword{
+    color: rgb(97, 70, 100);
+    font-size: small;
+    font-family: serif;
+    text-align: center;
+    margin-right: 40px;
+
+}
